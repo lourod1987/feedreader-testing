@@ -20,6 +20,9 @@ var allFeeds = [
     }, {
         name: 'Linear Digressions',
         url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+    }, {
+        name: 'Slashdot',
+        url: 'http://rss.slashdot.org/Slashdot/slashdotMain'
     }
 ];
 

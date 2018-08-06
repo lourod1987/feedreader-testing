@@ -13,7 +13,7 @@ $(function() {
     * a related set of tests. This suite is all about the RSS
     * feeds definitions, the allFeeds variable in our application.
     */
-    describe('RSS Feeds', function() {
+    describe('RSS Feeds', () => {
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
          * empty. Experiment with this before you get started on
@@ -103,7 +103,7 @@ $(function() {
             });
         });
 
-        it('should have at least a single .entry element in the .feed container', function(done) {
+        it('should have at least a single .entry element in the .feed container', (done) => {
             const feed = $('.feed');
             expect(feed.length).toBeGreaterThan(0);
             expect(feed.find('.entry')).toBeDefined();
